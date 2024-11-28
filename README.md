@@ -7,25 +7,25 @@ Program Overview:
 
 Features of the Project:
 
-Student Information Management:
+1. Student Information Management:
 
 The program allows you to input and store details for multiple students.
 Each student has a name and three grades for which the program calculates an average.
 
-Input Validation:
+2. Input Validation:
 
 The program validates that the grades entered are within a valid range (0 to 100). If a user enters an invalid grade (e.g., a grade less than 0 or greater than 100), it will prompt them to re-enter the grade until it's valid.
 
-Weighted Average Calculation:
+3. Weighted Average Calculation:
 
 Instead of just calculating a simple average, the program calculates a weighted average. Each grade has a specific weight that determines how much influence it has on the overall average.
 
-Pass/Fail Determination:
+4. Pass/Fail Determination:
 
 After calculating the weighted average, the program checks whether the student has passed or failed.
 If the weighted average is 50% or higher, the student is marked as "Passed." Otherwise, the student is marked as "Failed."
 This pass/fail status is displayed alongside the student’s name and grades.
 
-Formatted Output:
+5. Formatted Output:
 
 Once all the data has been entered and processed, the program displays a summary of each student, including their name, individual grades, weighted average, and pass/fail status, all in a structured and easy-to-read table format.
